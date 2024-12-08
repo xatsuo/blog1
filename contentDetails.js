@@ -64,7 +64,7 @@ function dynamicContentDetails(ob) {
 
 
     let linkTag1 = document.createElement('a');
-    linkTag1.href = "https://videoleaked.pages.dev/reload.html";  
+    linkTag1.href = "https://gitload.pages.dev/";  
     linkTag1.target = "_blank"; 
     linkTag1.rel = "nofollow";
     
@@ -92,7 +92,7 @@ function dynamicContentDetails(ob) {
 
     
     let linkTag2 = document.createElement('a');
-    linkTag2.href = "https://videoleaked.pages.dev/reload.html";  
+    linkTag2.href = "https://gitload.pages.dev/";  
     linkTag2.target = "_blank"; 
     linkTag2.rel = "nofollow";
     
@@ -127,7 +127,7 @@ function dynamicContentDetails(ob) {
     mainContainer.appendChild(productDetailsDiv);
 
     
-    document.title = ob.name + " | E-COMMERCE WEBSITE BY EDYODA";
+    document.title = ob.name + " | FullVideo";
 }
 
 let httpRequest = new XMLHttpRequest();
@@ -141,7 +141,7 @@ httpRequest.onreadystatechange = function() {
         let product = contentDetails.find(item => item.id === id);
         if (product) {
             
-            document.title = product.name + " | E-COMMERCE WEBSITE BY EDYODA"; 
+            document.title = product.name + " | FullVideo"; 
             dynamicContentDetails(product); 
         } else {
             console.log('Product not found');

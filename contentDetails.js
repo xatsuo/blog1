@@ -151,5 +151,5 @@ httpRequest.onreadystatechange = function() {
     }
 };
 
-httpRequest.open('GET', 'https://maxviral.pages.dev/product.json', true);
+httpRequest.open('GET', 'https://fullvideo.pages.dev/product.json', true);
 httpRequest.send();
